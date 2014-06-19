@@ -1,2 +1,10 @@
 At least 10 Ruby Monk problems for primer course solved and each solution pushed as separated ruby file in your github account in Week 1 folder.
 
+github guide:
+1. git add . #add all
+2. git commit -m "First commit"
+3. git remote add origin https://github.com/sigibart/Week1.git
+4. git push -u origin master
+5. clone<..>
+6. pull<..>
+
