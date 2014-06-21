@@ -6,6 +6,8 @@ marks any different than other characters and assume that we will always have
 single space to separate the words. 
 =end
 
-def sort_string
-
+def sort_string(string)
+p string.split(' ').sort{|a, b| a.length <=> b.length}.join(" ")
 end
+
+sort_string("55555, 4444 333 22 11 0")
