@@ -10,4 +10,4 @@ def sort_string(string)
 p string.split(' ').sort{|a, b| a.length <=> b.length}.join(" ")
 end
 
-sort_string("55555, 4444 333 22 11 0")
+sort_string("55555 4444 333 22 11 0")
